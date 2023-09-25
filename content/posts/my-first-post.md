@@ -23,3 +23,11 @@ kubectl get all
   <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
 </div>
 ```
+
+```html 
+  {{ range .Pages }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "January 2, 2006" }}
+    </li>
+  {{ end }}
+  ```
