@@ -1,7 +1,8 @@
 baseURL: "https://examplesite.com/"
 title: ExampleSite
 paginate: 5
-theme: PaperMod
+#theme: PaperMod
+theme: myFirstTheme
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -135,8 +136,9 @@ pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    #anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    #lineNos: true
+    style: monokai
+    
