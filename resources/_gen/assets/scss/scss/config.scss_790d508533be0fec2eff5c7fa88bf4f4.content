@@ -1,0 +1,38 @@
+:root {
+  --font-family-base: <no value>, sans-serif;
+  --font-family-heading: <no value>, sans-serif;
+  --font-family-monospace: <no value>, monospace;
+  --font-family-logo: <no value>, sans-serif;
+  --color-primary-bg: #2b3af7;
+  --color-primary-bg-2: #424ff8;
+  --color-primary-bg-3: #702bf7;
+  --color-primary-text: #ffffff;
+  --color-base-bg: #ffffff;
+  --color-base-bg-2: #f8fafc;
+  --color-base-bg-3: #f1f5f9;
+  --color-base-text: #202020;
+  --color-base-text-2: #4b5563;
+  --color-header-text:  #111827;
+  --logo-text-font-size: 28px;
+  --logo-text-font-weight: 500;
+  --header-height: 60px;
+  --menu-font-family: <no value>, sans-serif;
+  --menu-font-size: <no value>;
+  --menu-text-transform: "Capitalize";
+  --menu-font-weight: 400;
+  --section-padding: 80px; }
+
+html[data-bs-theme='dark'] {
+  --color-primary-bg: <no value>;
+  --color-primary-bg-2: <no value>;
+  --color-primary-bg-3: <no value>;
+  --color-primary-text: <no value>;
+  --color-base-bg: #121418;
+  --color-base-bg-2: #1d2026;
+  --color-base-bg-3: #24272d;
+  --color-base-text: #F4F4F5;
+  --color-base-text-2: #D1D5DB;
+  --color-logo-text: #F4F4F5;
+  --color-header-text:  #F4F4F5; }
+
+/*# sourceMappingURL=config.css.map */

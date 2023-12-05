@@ -2,6 +2,7 @@
 title: "Looping"
 date: 2023-08-30T08:34:45-04:00
 draft: false
+categories: ['Hugo', 'code']
 ---
 
 ``` golang

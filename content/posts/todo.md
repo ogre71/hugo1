@@ -7,4 +7,7 @@ draft: false
 - [ ] Create a header
 - [ ] Create a footer
 - [ ] Create a left sidebar
-- [ ] Create a right sidebar with... archetypes?
+- [x] Create a right sidebar with... archetypes?  
+The answer was taxonomies
+- [x] get bootstrap working on the site 
+- [ ] put a link to posts on main

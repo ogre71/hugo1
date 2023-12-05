@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{ if .Site.Params.dark_mode.enable_dark_mode }}
+    <script>
+      localStorage.getItem('darkMode') === 'true' && document.documentElement.setAttribute('data-bs-theme', 'dark');
+    </script>
+    {{ end }}
+
+    {{ partial "framework/head/css.html" . }}
+
+    {{ block "header_css" . }}{{ end }}
+</head>
+
+<body class='page {{ block "body_classes" . }}{{ end }}'>
+
+    <div id="wrapper" class="wrapper">
+        {{ block "main" . }}{{ end }}
+    </div>
+
+
+</body>
+</html>
